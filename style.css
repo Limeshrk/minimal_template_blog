@@ -1,0 +1,73 @@
+/* Navigation menu */
+.main-menu {
+  border-bottom: solid white;
+  width: fit-content;
+  margin: 60px auto 60px auto; /* centers menu, creates top and bottom margins */
+}
+.main-menu-list { 
+  padding: 0px 0px 0px 0px; /* Removes the ul default spacing around the menu */
+}
+.main-menu {
+  color: white;
+  text-decoration: none;
+}
+.main-menu-item {
+  margin: 0px 0px 0px 0px; /* removes button spaceing */
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+.main-menu-item > a {
+  padding: 20px 20px 20px 20px; /* creates the clickable buttons */
+  color: white;
+  text-decoration: none; /* removes link underline */
+}
+
+/* Menu item inverse color, pointer cursor on hover */
+.main-menu-item :hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Global bg color, font settings */
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+}
+
+/* Article title setup */
+.main-title {margin-bottom: 0px;}
+.creation-info { margin: 10px 0px 20px 0px;
+  color: #868686;
+}
+
+/* Main text body and box color settings */
+.main-content {
+  color: white;
+  background-color:#383838;
+  width: 800px;
+  margin: 0px auto 0 auto; /* centers content, creates space under menu line */
+  padding:  40px 40px 40px 40px; /* creates the gray box */
+}
+
+.picture-block{
+  margin: 0px 0px 30px 0px; /* creates the space before the footer after the picture area*/
+}
+.double-row, .single-picture {
+  display: block;
+  text-align: center;
+}
+
+.annotation {
+  margin: 0px 0px 0px 0px;
+  font-style: italic;
+  color:#868686
+}
+
+footer {
+  text-align:center;
+  color:white;
+  background-color: #141414;
+  padding: 20px 0px 80px 0px;}
